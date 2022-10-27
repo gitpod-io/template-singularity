@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
+# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+tasks:
+    - command: singularity shell --sif-fuse docker://python:3.8.9-slim
