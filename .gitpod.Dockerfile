@@ -1,6 +1,6 @@
 FROM gitpod/workspace-full:latest
 
-RUN install-packages \
+RUN sudo install-packages \
 	build-essential \
 	    libseccomp-dev \
 	    libglib2.0-dev \
